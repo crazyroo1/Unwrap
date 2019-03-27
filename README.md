@@ -17,7 +17,7 @@ At its core are almost 100 video lessons that teach all the fundamentals of the 
 
 Once you’ve made some progress learning, you can dive into a selection of practice activities that make you write code by tapping, dragging, or typing, find errors, predict program output, and more. There are also daily challenges that test your overall language knowledge once per day, helping your new skills really sink in.
 
-At some point hopefully soon Unwrap will be available to download for free on the App Store. Until then, I’ve made the code available so that anyone who wants to can see how I structure my code and perhaps learn from it. If you’d like to help you’re most welcome to and there are many opportunities, but make sure you read the contribution guidelines first.
+At some point, hopefully soon, Unwrap will be available to download for free on the App Store. Until then, I’ve made the code available so that anyone who wants to can see how I structure my code and perhaps learn from it. If you’d like to help you’re most welcome to and there are many opportunities, but make sure you read the contribution guidelines first.
 
 
 ## Trying it yourself
@@ -40,7 +40,7 @@ If you’d like to help, here are some suggestions ordered from most easy to mos
 
 1. Just try running the app and let me know if you hit any problems.
 2. I’ve written a huge amount of all-new content for this app, so if (and when!) you see any typos please correct them and open a PR.
-3. If you spot any redundant code, or code that repeats itself that can sensible be refactored not to repeat, you’re welcome to clean it up. Any unused code should be deleted rather than just commented out.
+3. If you spot any redundant code, or code that repeats itself that can sensibly be refactored not to repeat, you’re welcome to clean it up. Any unused code should be deleted rather than just commented out.
 4. If you can write (sensible!) solutions for Free Coding problems that aren’t currently accepted, please add them.
 5. If you see any Sixty Seconds chapters that don’t have a postscript (alert message shown between the chapter text and review), and you think there’s something important to add there, add it.
 5. Write new tests. It doesn’t matter how small they might seem, tests are always appreciated and won’t require you to modify any of the core code.
