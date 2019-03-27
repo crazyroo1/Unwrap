@@ -1,6 +1,6 @@
 # Contributing to Unwrap
 
-There are lots of ways you can help build this app, and everyone is welcome regardless of skill level and experience. 
+There are lots of ways you can help build this app, and everyone is welcome regardless of skill level or experience. 
 
 I already included suggestions for new contributors in the README.md, so here I want to walk you through the way the app is structured to help you understand how it fits together.
 
@@ -9,7 +9,7 @@ I already included suggestions for new contributors in the README.md, so here I 
 
 Make sure you also read and understand LICENSE.md. There is also a code of conduct in CODE_OF_CONDUCT.md that helps ensure contributions take place in a harassment-free environment.
 
-If you have questions about the code, about making commits, or even if you’re not sure how to open pull requests to get your code merged, that’s OK – just tweet me [@twostraws](https://twitter.com/twostraws) and I’ll try to help. Everyone is welcome here, even if it’s their first time working in a team project.
+If you have questions about the code, about making commits, or even if you’re not sure how to open pull requests to get your code merged, that’s OK – just tweet me [@twostraws](https://twitter.com/twostraws) and I’ll try to help. Everyone is welcome here, even if it’s their first time working on a team project.
 
 
 ## Tools
@@ -18,7 +18,7 @@ Unwrap was built using Xcode 10.2 and Swift 5.0.
 
 The project uses SwiftLint, so please check all its tests pass when you make a change. You may need to install CocoaPods if you need to re-install the pods for some reason. Broadly speaking it’s preferable that you don’t upgrade pod versions just for fun – if there’s some particular feature or improvement that’s worthwhile let’s talk it over first.
 
-Unwrap uses a *lot* of JSON – you should bookmark something like <https://jsonformatter.org> so you can check your JSON is correct easily. Annoyingly, JSON does not allow real line breaks in strings (they are encoded as `\n`), or comments. So, be prepared to read some fairly long strings in JSON! 
+Unwrap uses a *lot* of JSON – you should bookmark something like <https://jsonformatter.org> so you can check that your JSON is correct easily. Annoyingly, JSON does not allow real line breaks in strings (they are encoded as `\n`), or comments. So, be prepared to read some fairly long strings in JSON! 
 
 
 ## Overview
@@ -51,7 +51,7 @@ There’s a method called `titleSuffix(for: Sequenced)`, which returns what shou
 
 Moving on, the `Reusables` group stores a a handful of reusable components such as `UIView` and `UIViewController` subclasses. These are used generally throughout the app, such as a view that draws gradients, and a view controller that shows alert messages.
 
-The `User` group contains three files, all of which combine together to make the `User` class. This is a singleton because there can only ever be one user, and it’s shared across the app. This class is split into three files mainly to make it easier to understand – this one class handles everything to do with user data, so there’s a lot to it.
+The `User` group contains three files, all of which combine together to make the `User` class. This is a singleton because there can only ever be one user, and it’s shared across the app. This class is split into three files, mainly to make it easier to understand – this one class handles everything to do with user data, so there’s a lot to it.
 
 Finally, outside all the groups, is the main tab bar controller responsible for setting up the coordinators in each of its five tabs. You’ll also see Unwrap.swift, which is a tiny enum containing some static constants that are used throughout the app.
 
@@ -106,9 +106,9 @@ Let’s dive in to each of the practice activities…
 
 ### Free Coding
 
-This is by far the most complex of all the practice activities – I’m only putting it first because this list of alphabetical!
+This is by far the most complex of all the practice activities – I’m only putting it first because this list is alphabetical!
 
-This activity sets users a challenge – “here’s an array of numbers, write code to double them” – then allows them to write whatever code they want to solve that challenge. 
+This activity gives users a challenge – “here’s an array of numbers, write code to double them” – then allows them to write whatever code they want to solve that challenge. 
 
 The reason this is difficult is because even a simple problem like doubling an array of numbers can be solved in a variety of ways using a variety of coding styles, and without the ability to compile Swift locally we can’t cover every case – it’s trivial to concoct example code that is valid but won’t pass the test. (And no, I don’t want to evaluate the code on a remote server.)
 
